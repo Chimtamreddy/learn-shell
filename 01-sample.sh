@@ -1,5 +1,5 @@
-ls
-ls -ltr
+ls -la
+ls -ltra
 uname
 
 uname -a
