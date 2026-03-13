@@ -1,0 +1,5 @@
+echo first argument - $1
+echo second argument - $2
+echo all arguments - $*
+echo No of arguments - $#
+echo exit status - $0
