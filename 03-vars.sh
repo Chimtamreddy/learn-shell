@@ -3,7 +3,7 @@ a=10
 echo a is $a or ${a}
 
 # Command Substitution
-DATE=(date)
+DATE=$(date)
 echo Today date is ${DATE}
 
 #Arithmetic Substitution
