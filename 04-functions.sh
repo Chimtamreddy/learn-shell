@@ -7,3 +7,13 @@ func_python(){
 }
 
 func_python
+
+input(){
+  echo Start DevOps Course
+  return
+  echo Welcome to DevOps Tutorials
+
+  echo Hear to you
+}
+
+input
