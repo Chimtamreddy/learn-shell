@@ -1,19 +1,18 @@
-func_python(){
+greeting(){
   echo Start DevOps Course
   echo Welcome to DevOps Tutorials
-  exit 1
+  return 10
   echo Hear to you
 
 }
 
-func_python
+greeting
 
 input(){
-  echo Start DevOps Course
-  return
-  echo Welcome to DevOps Tutorials
-
-  echo Hear to you
+  echo First Argument - $1
+  echo Second Argument - $2
+  echo All Arguments - $*
+  echo No of Arguments - $#
 }
 
-input
+input abc 1234
